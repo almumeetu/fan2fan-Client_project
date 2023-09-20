@@ -257,9 +257,7 @@ label {
 
 
 /* Selling History CSS start hEre */
-.selling_history{
 
-}
 
 .dashboard{
 	
@@ -331,6 +329,7 @@ label {
 	margin-inline-end: 0px;
 	color: #54595F;
 	font-size: 16px;
+	font-weight: 500;
 }
 .h_left img {
 	box-sizing: border-box;
@@ -400,12 +399,22 @@ label {
 	padding: 10px 20px;
 	border-radius: 2px;
 }
+.selling_history{
+	border-top: 2px solid #333;
+	padding-top: 50px;
+	border-bottom: 2px solid #333;
+	padding-bottom: 50px;
+}
 
+.selling_history{
+
+}
 
 
 .container{
 	max-width: 1460px;
 }
+
 
 
 
@@ -464,7 +473,7 @@ Selling Record Paid */
 	border-radius: 16px;
 }
 .container-2{
-	max-width: 1230px;
+	max-width: 1200px;
 }
 .down-content ul li {
 	display: inline-block;
@@ -492,7 +501,7 @@ Selling Record Paid */
 	background-color: #f542d7;
 }
 .down-content p {
-	display: block;
+	/* display: block;
 	margin-block-start: 1em;
 	margin-block-end: 1em;
 	margin-inline-start: 0px;
@@ -501,6 +510,14 @@ Selling Record Paid */
 	color: #333333;
 	line-height: 23px;
 	margin-top: 24px;
+	font-weight: 500; */
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	color: #333333;
+	font-size: 16px;
 	font-weight: 500;
 }
 .description ul li {
