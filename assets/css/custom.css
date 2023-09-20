@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.topbar-bg {
+    background-color: #6200EE;
+}
+
+.topbar-text {
+    color: #333333;
+    line-height: 23px;
+}
+
+.hot-topic-bold {
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.hot-topic-tink {
+    font-family: "Roboto", Sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #28292E;
+    transition: color 0.3s;
+}
+
+.title-text {
+    border-bottom: 6px solid #6200ee;
+    width: fit-content;
+    margin-bottom: 4px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    border-radius: 15px;
+}
+
+.inner-text-consert {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 0px 7px;
+    background-color: #efc21a;
+    border-radius: 5px;
+}
+
+.inner-text-sport {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 0px 7px;
+    background-color: #261ddc;
+    color: white;
+    border-radius: 5px;
+}
+
+.inner-text-music {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 0px 7px;
+    background-color: #3fdde0;
+    border-radius: 5px;
+}
+
+.border-custom-black-line {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #000000;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    color: #000000;
+}
+
+.custom-buttom {
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #6185CE;
+    border-style: none;
+    padding: 10px 20px;
+}
+
+footer {
+    border-bottom: 3px solid #000000;
+}
+
+.text-small {
+    color: #000000;
+    font-family: "Tahoma", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sell-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    fill: #000000;
+    color: #000000;
+    background-color: #6200EE;
+    border-radius: 16px 16px 16px 16px;
+    padding: 5px 15px;
+    border: 0px;
+    transition: .5s;
+}
+
+.cst-nav-last-child {
+    color: #343434;
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+}
+
+.sell-button:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.search-parent {
+    position: relative;
+}
+
+.fa-search {
+    top: 10px;
+    position: absolute;
+    right: 20px;
+}
+
+.nav-item .cst-nav {
+    color: #343434;
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+    border-right: 2px solid #6200ee;
+}
+
+.hidden-div {
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 5px;
+    display: none;
+}
+
+/* this is menu purpuss */
+.login-sub-menu,
+.registration-menu {
+    list-style: none;
+    margin-left: -20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6B6B6B;
+    font-family: "Roboto", Sans-serif;
+}
+
+.login-sub-menu li:hover {
+    color: #efc21a;
+}
+
+.registration-menu li:hover {
+    color: #efc21a;
+}
+
+.login-sub-menu,
+.registration-menu {
+    display: none;
+}
+
+.login-sub-menu li,
+.registration-menu li {
+    margin: 10px 0px 10px 20px;
+}
+
+.nav-item:hover .login-sub-menu {
+    display: block;
+}
+
+.nav-item:hover .registration-menu {
+    display: block;
+}
+
+.login-menu {
+    position: relative;
+}
+
+.registration-menu,
+.login-sub-menu {
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 40px 60px;
+    cursor: pointer;
+}
+
+.btn-deco {
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 10px;
+    margin-left: 5px;
+    border: none;
+}
+
+.login-sub-menu h6 {
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.registration-menu h6 {
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+/* Nested Menu */
+.cat_menu {
+    position: relative;
+}
+
+.cat_menu>inner-menu {
+    /* display: none; */
+    background-color: #fff;
+    padding: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cat_menu:hover inner-menu {
+    display: block;
+    position: absolute;
+}
+
+.cat_menu>ul>li>ul {
+    display: none !important;
+    position: relative;
+    cursor: pointer;
+}
+
+.cat_menu>ul>li:hover ul {
+    display: block !important;
+}
+
+
+.cat_menu {
+    position: relative;
+}
+
+.cat_menu>ul {
+    display: none;
+    background-color: #fff;
+    padding: 40px 60px;
+    position: absolute;
+    z-index: 100000000000;
+    cursor: pointer;
+}
+
+.cat_menu:hover ul {
+    display: block;
+}
+
+.cat_menu>ul>li>ul {
+    display: none !important;
+    position: relative;
+    cursor: pointer;
+}
+
+.cat_menu>ul>li:hover ul {
+    display: block !important;
+    margin-left: 60px;
+    /* padding: 20px 60px; */
+    background-color: #fff;
+}

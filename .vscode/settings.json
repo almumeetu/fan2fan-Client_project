@@ -1,0 +1,5 @@
+{
+    "javascript.preferences.autoImportFileExcludePatterns": [
+        "\"files.associations\": {     \"*.html\": \"html\" }"
+    ]
+}
