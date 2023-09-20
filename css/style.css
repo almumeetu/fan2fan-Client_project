@@ -330,6 +330,7 @@ label {
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 	color: #54595F;
+	font-size: 16px;
 }
 .h_left img {
 	box-sizing: border-box;
@@ -341,9 +342,52 @@ label {
     border: none;
     box-shadow: none;
 }
+.right-content p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	color: #54595F;
+	font-size: 16px;
+}
+.upload {
+	color: #000000;
+	font-family: "Roboto", Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	padding: 8px 10px;
+	background: #8df542;
+	width: fit-content;
+	margin: 0;
+	line-height: 1;
+	box-sizing: border-box;
+}
+.mt-35{
+	margin-top: 35px;
+}
+.pt-20 {
+	padding-top: 20px;
+}
 
-
-
+.details-btn {
+	flex-grow: 1;
+	order: 10;
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: "Roboto", Sans-serif;
+	font-weight: 400;
+	fill: #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #000000;
+	font-size: 13px;
+	padding: 10px 20px;
+	border-radius: 2px;
+}
 
 
 .container{
