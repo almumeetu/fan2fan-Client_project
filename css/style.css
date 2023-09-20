@@ -500,7 +500,8 @@ Selling Record Paid */
 	margin-bottom: 1rem;
 	color: #333333;
 	line-height: 23px;
-	margin-top: 20px;
+	margin-top: 24px;
+	font-weight: 500;
 }
 .description ul li {
 	display: inline-block;
@@ -522,4 +523,23 @@ Selling Record Paid */
 	border-color: #ECECEC;
 	border-radius: 16px 16px 16px 16px;
 	padding: 10px 15px 10px 15px;
+}
+strong {
+	color: #333333;
+	line-height: 23px;
+	font-family: "Roboto", Sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 26px;
+}
+.strong {
+	margin-top: 34px;
+	margin-left: 4px;
+}
+
+.des {
+	background: #ECECEC;
+	padding: 3px 15px;
+	border-radius: 4px;
+	margin-top: 5px;
 }
