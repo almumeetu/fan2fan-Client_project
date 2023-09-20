@@ -127,7 +127,7 @@ p {
 	margin-bottom: 15px;
 }
 hr {
-	border-bottom: 1px solid #eceff8;
+	border-bottom: 2px solid #ECECEC;
 	border-top: 0 none;
 	margin: 30px 0;
 	padding: 0;
@@ -364,6 +364,18 @@ label {
 	line-height: 1;
 	box-sizing: border-box;
 }
+.paid{
+	background: #f542d7;
+}
+.shipping{
+	background: #756bc2;
+}
+.done{
+	background: #eff542;
+}
+.cancel{
+	background: #f56042;
+}
 .mt-35{
 	margin-top: 35px;
 }
@@ -390,7 +402,124 @@ label {
 }
 
 
+
 .container{
 	max-width: 1460px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Selling Record Paid */
+
+
+.history-2 {
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-color: #ECECEC;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	margin-bottom: 15px;
+	padding: 50px 26px;
+	border-radius: 16px;
+}
+.container-2{
+	max-width: 1230px;
+}
+.down-content ul li {
+	display: inline-block;
+	margin-left: 16px;
+}
+.down-content ul li:first-child{
+	margin-left: 0px;
+}
+.btn-22 {
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: "Roboto", Sans-serif;
+	font-weight: 400;
+	fill: #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #ECECEC;
+	font-size: 13px;
+	padding: 7px 33px;
+	border-radius: 2px;
+}
+.btn-23{
+	background-color: #f542d7;
+}
+.down-content p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	margin-bottom: 1rem;
+	color: #333333;
+	line-height: 23px;
+	margin-top: 20px;
+}
+.description ul li {
+	display: inline-block;
+	margin-left: 45px;
+}
+.description ul li:first-child{
+	margin-left: 0;
+}
+.description ul li a {
+	font-size: 13px;
+	text-align: center;
+	font-family: "Roboto", Sans-serif;
+	font-weight: 400;
+	fill: #000000;
+	color: #000000;
+	background-color: #F6F6F6;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #ECECEC;
+	border-radius: 16px 16px 16px 16px;
+	padding: 10px 15px 10px 15px;
+}
